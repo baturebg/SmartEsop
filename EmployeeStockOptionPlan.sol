@@ -151,7 +151,7 @@ contract EmployeeStockOptionPlan {
     }
 
 	
-	// a functions to calculate vested options of an employee
+	// a functions to calculate vested options
     function calculateVestedOptions(VestingSchedule storage vestingSchedule)
         internal
         view
